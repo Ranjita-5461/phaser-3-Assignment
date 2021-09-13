@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background: #ffff;
+    color: #eee;
+    font: caption;
+  }
+  
+  #version {
+    position: absolute;
+    left: 5px;
+    top: 605px;
+  }
+
+  
+  .alerts-border {
+    border: 1px solid;
+    animation: blink 10s;
+    animation-iteration-count: 3;
+}
+
+@keyframes blink { 50% { border-color: #ff0000; }  }
+  
+
+
